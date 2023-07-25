@@ -30,7 +30,10 @@
 
 # 📖 [School Library] <a name="about-project"></a>
 
-In this project, I built a school library application. In this initial step, I implemented the classes to represent students and teachers.
+In this project, I built a school library application which is a tool to record what books are in the library and who borrows them. This app will allow users to:
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 **[School Library]** is...
 
@@ -64,8 +67,8 @@ In this project, I built a school library application. In this initial step, I i
 ### Key Features <a name="key-features"></a>
 
 - **[ Use Morphysim ]**
-
 - **[ use getter and setter method ]**
+- **[use the "Decorator" design pattern]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +117,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  ruby .\morse_code.rb
+  ruby main.rb
 ```
 
 <!-- ### Run tests
@@ -150,7 +153,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[use the "Decorator" design pattern]**
 - [ ] **[set up associations]**
 - [ ] **[add basic UI]**
 - [ ] **[preserve data]**
